@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE479EA5434F0E067DD71CF0 /* libPods-CoverLoadingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247FDFD102A68867F04FDE5A /* libPods-CoverLoadingDemo.a */; };
+		FD2B230D219D05580060C6FA /* BDLoadingShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2B230C219D05580060C6FA /* BDLoadingShowController.m */; };
+		FD2B2310219D10EB0060C6FA /* BDMayiSenlingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2B230F219D10EB0060C6FA /* BDMayiSenlingView.m */; };
 		FD3333E1219C1CD6002AED02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333E0219C1CD6002AED02 /* AppDelegate.m */; };
 		FD3333E4219C1CD6002AED02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333E3219C1CD6002AED02 /* ViewController.m */; };
 		FD3333E7219C1CD6002AED02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3333E5219C1CD6002AED02 /* Main.storyboard */; };
 		FD3333E9219C1CDC002AED02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3333E8219C1CDC002AED02 /* Assets.xcassets */; };
 		FD3333EC219C1CDC002AED02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3333EA219C1CDC002AED02 /* LaunchScreen.storyboard */; };
 		FD3333EF219C1CDC002AED02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333EE219C1CDC002AED02 /* main.m */; };
+		FD3333F8219C2157002AED02 /* BDLoadingCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333F6219C2157002AED02 /* BDLoadingCoverView.m */; };
+		FD3333FB219C21B0002AED02 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333FA219C21B0002AED02 /* UIView+AutoLayout.m */; };
+		FD333401219C2384002AED02 /* BDNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3333FF219C2384002AED02 /* BDNavigationView.m */; };
+		FD333404219C2D4A002AED02 /* BDLoadingAnimaionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD333403219C2D4A002AED02 /* BDLoadingAnimaionView.m */; };
+		FD333408219C2E54002AED02 /* BDLoadingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FD333407219C2E54002AED02 /* BDLoadingConst.m */; };
+		FD333414219C33A8002AED02 /* Loading10.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340A219C33A8002AED02 /* Loading10.gif */; };
+		FD333415219C33A8002AED02 /* Loading9.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340B219C33A8002AED02 /* Loading9.gif */; };
+		FD333416219C33A8002AED02 /* Loading8.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340C219C33A8002AED02 /* Loading8.gif */; };
+		FD333417219C33A8002AED02 /* Loading5.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340D219C33A8002AED02 /* Loading5.gif */; };
+		FD333418219C33A8002AED02 /* Loading4.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340E219C33A8002AED02 /* Loading4.gif */; };
+		FD333419219C33A8002AED02 /* Loading6.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD33340F219C33A8002AED02 /* Loading6.gif */; };
+		FD33341A219C33A8002AED02 /* Loading7.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD333410219C33A8002AED02 /* Loading7.gif */; };
+		FD33341B219C33A8002AED02 /* Loading3.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD333411219C33A8002AED02 /* Loading3.gif */; };
+		FD33341C219C33A8002AED02 /* Loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD333412219C33A8002AED02 /* Loading2.gif */; };
+		FD33341D219C33A8002AED02 /* Loading1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FD333413219C33A8002AED02 /* Loading1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		247FDFD102A68867F04FDE5A /* libPods-CoverLoadingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoverLoadingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46104C276150EAFC9B74EDAF /* Pods-CoverLoadingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverLoadingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoverLoadingDemo/Pods-CoverLoadingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		74E277804A1A74FEFB8C836D /* Pods-CoverLoadingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverLoadingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoverLoadingDemo/Pods-CoverLoadingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD2B230B219D05580060C6FA /* BDLoadingShowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDLoadingShowController.h; sourceTree = "<group>"; };
+		FD2B230C219D05580060C6FA /* BDLoadingShowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDLoadingShowController.m; sourceTree = "<group>"; };
+		FD2B230E219D10EB0060C6FA /* BDMayiSenlingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDMayiSenlingView.h; sourceTree = "<group>"; };
+		FD2B230F219D10EB0060C6FA /* BDMayiSenlingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDMayiSenlingView.m; sourceTree = "<group>"; };
 		FD3333DC219C1CD6002AED02 /* CoverLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3333DF219C1CD6002AED02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD3333E0219C1CD6002AED02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +51,27 @@
 		FD3333EB219C1CDC002AED02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD3333ED219C1CDC002AED02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD3333EE219C1CDC002AED02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD3333F6219C2157002AED02 /* BDLoadingCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDLoadingCoverView.m; sourceTree = "<group>"; };
+		FD3333F7219C2157002AED02 /* BDLoadingCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLoadingCoverView.h; sourceTree = "<group>"; };
+		FD3333F9219C21B0002AED02 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		FD3333FA219C21B0002AED02 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		FD3333FF219C2384002AED02 /* BDNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDNavigationView.m; sourceTree = "<group>"; };
+		FD333400219C2384002AED02 /* BDNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDNavigationView.h; sourceTree = "<group>"; };
+		FD333402219C2D4A002AED02 /* BDLoadingAnimaionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDLoadingAnimaionView.h; sourceTree = "<group>"; };
+		FD333403219C2D4A002AED02 /* BDLoadingAnimaionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDLoadingAnimaionView.m; sourceTree = "<group>"; };
+		FD333405219C2DBB002AED02 /* LoadingFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingFile.h; sourceTree = "<group>"; };
+		FD333406219C2E54002AED02 /* BDLoadingConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDLoadingConst.h; sourceTree = "<group>"; };
+		FD333407219C2E54002AED02 /* BDLoadingConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDLoadingConst.m; sourceTree = "<group>"; };
+		FD33340A219C33A8002AED02 /* Loading10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading10.gif; sourceTree = "<group>"; };
+		FD33340B219C33A8002AED02 /* Loading9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading9.gif; sourceTree = "<group>"; };
+		FD33340C219C33A8002AED02 /* Loading8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading8.gif; sourceTree = "<group>"; };
+		FD33340D219C33A8002AED02 /* Loading5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading5.gif; sourceTree = "<group>"; };
+		FD33340E219C33A8002AED02 /* Loading4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading4.gif; sourceTree = "<group>"; };
+		FD33340F219C33A8002AED02 /* Loading6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading6.gif; sourceTree = "<group>"; };
+		FD333410219C33A8002AED02 /* Loading7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading7.gif; sourceTree = "<group>"; };
+		FD333411219C33A8002AED02 /* Loading3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading3.gif; sourceTree = "<group>"; };
+		FD333412219C33A8002AED02 /* Loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading2.gif; sourceTree = "<group>"; };
+		FD333413219C33A8002AED02 /* Loading1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Loading1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE479EA5434F0E067DD71CF0 /* libPods-CoverLoadingDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4162353EBEB0BB9EA8E0EBE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247FDFD102A68867F04FDE5A /* libPods-CoverLoadingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD35BCFB6EC14317113CA95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46104C276150EAFC9B74EDAF /* Pods-CoverLoadingDemo.debug.xcconfig */,
+				74E277804A1A74FEFB8C836D /* Pods-CoverLoadingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD3333D3219C1CD6002AED02 = {
 			isa = PBXGroup;
 			children = (
 				FD3333DE219C1CD6002AED02 /* CoverLoadingDemo */,
 				FD3333DD219C1CD6002AED02 /* Products */,
+				BDD35BCFB6EC14317113CA95 /* Pods */,
+				4162353EBEB0BB9EA8E0EBE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +128,10 @@
 				FD3333E0219C1CD6002AED02 /* AppDelegate.m */,
 				FD3333E2219C1CD6002AED02 /* ViewController.h */,
 				FD3333E3219C1CD6002AED02 /* ViewController.m */,
+				FD2B230B219D05580060C6FA /* BDLoadingShowController.h */,
+				FD2B230C219D05580060C6FA /* BDLoadingShowController.m */,
+				FD333409219C33A8002AED02 /* resourse */,
+				FD3333F5219C2157002AED02 /* LoadingView */,
 				FD3333E5219C1CD6002AED02 /* Main.storyboard */,
 				FD3333E8219C1CDC002AED02 /* Assets.xcassets */,
 				FD3333EA219C1CDC002AED02 /* LaunchScreen.storyboard */,
@@ -71,6 +141,43 @@
 			path = CoverLoadingDemo;
 			sourceTree = "<group>";
 		};
+		FD3333F5219C2157002AED02 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				FD3333F7219C2157002AED02 /* BDLoadingCoverView.h */,
+				FD3333F6219C2157002AED02 /* BDLoadingCoverView.m */,
+				FD333402219C2D4A002AED02 /* BDLoadingAnimaionView.h */,
+				FD333403219C2D4A002AED02 /* BDLoadingAnimaionView.m */,
+				FD2B230E219D10EB0060C6FA /* BDMayiSenlingView.h */,
+				FD2B230F219D10EB0060C6FA /* BDMayiSenlingView.m */,
+				FD333406219C2E54002AED02 /* BDLoadingConst.h */,
+				FD333407219C2E54002AED02 /* BDLoadingConst.m */,
+				FD333400219C2384002AED02 /* BDNavigationView.h */,
+				FD3333FF219C2384002AED02 /* BDNavigationView.m */,
+				FD3333F9219C21B0002AED02 /* UIView+AutoLayout.h */,
+				FD3333FA219C21B0002AED02 /* UIView+AutoLayout.m */,
+				FD333405219C2DBB002AED02 /* LoadingFile.h */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		FD333409219C33A8002AED02 /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+				FD33340A219C33A8002AED02 /* Loading10.gif */,
+				FD33340B219C33A8002AED02 /* Loading9.gif */,
+				FD33340C219C33A8002AED02 /* Loading8.gif */,
+				FD33340D219C33A8002AED02 /* Loading5.gif */,
+				FD33340E219C33A8002AED02 /* Loading4.gif */,
+				FD33340F219C33A8002AED02 /* Loading6.gif */,
+				FD333410219C33A8002AED02 /* Loading7.gif */,
+				FD333411219C33A8002AED02 /* Loading3.gif */,
+				FD333412219C33A8002AED02 /* Loading2.gif */,
+				FD333413219C33A8002AED02 /* Loading1.gif */,
+			);
+			path = resourse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD3333F2219C1CDC002AED02 /* Build configuration list for PBXNativeTarget "CoverLoadingDemo" */;
 			buildPhases = (
+				89BBED9B7CC2E175D2E941AA /* [CP] Check Pods Manifest.lock */,
 				FD3333D8219C1CD6002AED02 /* Sources */,
 				FD3333D9219C1CD6002AED02 /* Frameworks */,
 				FD3333DA219C1CD6002AED02 /* Resources */,
@@ -128,21 +236,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD333414219C33A8002AED02 /* Loading10.gif in Resources */,
+				FD33341D219C33A8002AED02 /* Loading1.gif in Resources */,
 				FD3333EC219C1CDC002AED02 /* LaunchScreen.storyboard in Resources */,
+				FD333418219C33A8002AED02 /* Loading4.gif in Resources */,
+				FD33341A219C33A8002AED02 /* Loading7.gif in Resources */,
+				FD33341C219C33A8002AED02 /* Loading2.gif in Resources */,
+				FD33341B219C33A8002AED02 /* Loading3.gif in Resources */,
+				FD333417219C33A8002AED02 /* Loading5.gif in Resources */,
+				FD333419219C33A8002AED02 /* Loading6.gif in Resources */,
 				FD3333E9219C1CDC002AED02 /* Assets.xcassets in Resources */,
+				FD333415219C33A8002AED02 /* Loading9.gif in Resources */,
+				FD333416219C33A8002AED02 /* Loading8.gif in Resources */,
 				FD3333E7219C1CD6002AED02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89BBED9B7CC2E175D2E941AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoverLoadingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD3333D8219C1CD6002AED02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3333FB219C21B0002AED02 /* UIView+AutoLayout.m in Sources */,
 				FD3333E4219C1CD6002AED02 /* ViewController.m in Sources */,
+				FD3333F8219C2157002AED02 /* BDLoadingCoverView.m in Sources */,
+				FD2B2310219D10EB0060C6FA /* BDMayiSenlingView.m in Sources */,
 				FD3333EF219C1CDC002AED02 /* main.m in Sources */,
+				FD2B230D219D05580060C6FA /* BDLoadingShowController.m in Sources */,
+				FD333404219C2D4A002AED02 /* BDLoadingAnimaionView.m in Sources */,
+				FD333401219C2384002AED02 /* BDNavigationView.m in Sources */,
+				FD333408219C2E54002AED02 /* BDLoadingConst.m in Sources */,
 				FD3333E1219C1CD6002AED02 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +433,7 @@
 		};
 		FD3333F3219C1CDC002AED02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46104C276150EAFC9B74EDAF /* Pods-CoverLoadingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +451,7 @@
 		};
 		FD3333F4219C1CDC002AED02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E277804A1A74FEFB8C836D /* Pods-CoverLoadingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
